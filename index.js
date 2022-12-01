@@ -7,5 +7,5 @@ function back() {
 
 function calculate(){
     var text = document.form.textinput.value
-    document.form.textinput.value =  eval(text)
+    document.form.textinput.value = document.form.textinput.value + "=" + eval(text)
 }
